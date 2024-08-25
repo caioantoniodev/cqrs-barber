@@ -1,0 +1,12 @@
+services:
+  postgresql:
+    image: postgres:16.4-alpine3.20
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: ms-barber-command
+    volumes:
+      - ./init-barber-schema.sql:/docker-entrypoint-initdb.d/init-barber-schema.sql
+    ports:
+      - '5432:5432'

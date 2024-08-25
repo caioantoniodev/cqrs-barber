@@ -1,1 +1,1 @@
-![PrototypeAPI](https://github.com/caioantoniodev/cqrs-barber/blob/main/assets/cqrs%20architecture.png?raw=true)
+![PrototypeAPI](https://github.com/caioantoniodev/cqrs-barber/blob/main/docs/cqrs%20architecture.png?raw=true)
